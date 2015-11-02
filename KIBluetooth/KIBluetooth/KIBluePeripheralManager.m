@@ -38,7 +38,7 @@ static KIBluePeripheralManager  *BLUE_PERIPHERIAL_MANAGER = nil;
 + (KIBluePeripheralManager *)sharedInstance {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        BLUE_PERIPHERIAL_MANAGER = [[KIBluePeripheralManager allocWithZone:nil] init];
+        BLUE_PERIPHERIAL_MANAGER = [[super allocWithZone:nil] init];
     });
     return BLUE_PERIPHERIAL_MANAGER;
 }
