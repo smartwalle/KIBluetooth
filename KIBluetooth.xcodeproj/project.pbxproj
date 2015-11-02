@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1846A51F1BE7632A007E2D7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846A51E1BE7632A007E2D7C /* main.m */; };
+		1846A5221BE7632A007E2D7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846A5211BE7632A007E2D7C /* AppDelegate.m */; };
+		1846A5251BE7632A007E2D7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846A5241BE7632A007E2D7C /* ViewController.m */; };
+		1846A5281BE7632A007E2D7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1846A5261BE7632A007E2D7C /* Main.storyboard */; };
+		1846A52A1BE7632A007E2D7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1846A5291BE7632A007E2D7C /* Images.xcassets */; };
+		1846A52D1BE7632A007E2D7C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1846A52B1BE7632A007E2D7C /* LaunchScreen.xib */; };
+		1846A5391BE7632A007E2D7C /* KIBluetoothTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846A5381BE7632A007E2D7C /* KIBluetoothTests.m */; };
+		1846A54B1BE7633D007E2D7C /* CBUUID+KIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846A5441BE7633D007E2D7C /* CBUUID+KIAdditions.m */; };
+		1846A54C1BE7633D007E2D7C /* KIBlueCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846A5461BE7633D007E2D7C /* KIBlueCentralManager.m */; };
+		1846A54D1BE7633D007E2D7C /* KIBluePeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846A5481BE7633D007E2D7C /* KIBluePeripheralManager.m */; };
+		1846A54E1BE7633D007E2D7C /* KIPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846A54A1BE7633D007E2D7C /* KIPeripheral.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1846A5331BE7632A007E2D7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1846A5111BE7632A007E2D7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1846A5181BE7632A007E2D7C;
+			remoteInfo = KIBluetooth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1846A5191BE7632A007E2D7C /* KIBluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIBluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1846A51D1BE7632A007E2D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1846A51E1BE7632A007E2D7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1846A5201BE7632A007E2D7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1846A5211BE7632A007E2D7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1846A5231BE7632A007E2D7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1846A5241BE7632A007E2D7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1846A5271BE7632A007E2D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1846A5291BE7632A007E2D7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1846A52C1BE7632A007E2D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1846A5321BE7632A007E2D7C /* KIBluetoothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIBluetoothTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1846A5371BE7632A007E2D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1846A5381BE7632A007E2D7C /* KIBluetoothTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIBluetoothTests.m; sourceTree = "<group>"; };
+		1846A5431BE7633D007E2D7C /* CBUUID+KIAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBUUID+KIAdditions.h"; sourceTree = "<group>"; };
+		1846A5441BE7633D007E2D7C /* CBUUID+KIAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBUUID+KIAdditions.m"; sourceTree = "<group>"; };
+		1846A5451BE7633D007E2D7C /* KIBlueCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIBlueCentralManager.h; sourceTree = "<group>"; };
+		1846A5461BE7633D007E2D7C /* KIBlueCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIBlueCentralManager.m; sourceTree = "<group>"; };
+		1846A5471BE7633D007E2D7C /* KIBluePeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIBluePeripheralManager.h; sourceTree = "<group>"; };
+		1846A5481BE7633D007E2D7C /* KIBluePeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIBluePeripheralManager.m; sourceTree = "<group>"; };
+		1846A5491BE7633D007E2D7C /* KIPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIPeripheral.h; sourceTree = "<group>"; };
+		1846A54A1BE7633D007E2D7C /* KIPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIPeripheral.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1846A5161BE7632A007E2D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1846A52F1BE7632A007E2D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1846A5101BE7632A007E2D7C = {
+			isa = PBXGroup;
+			children = (
+				1846A51B1BE7632A007E2D7C /* KIBluetooth */,
+				1846A5351BE7632A007E2D7C /* KIBluetoothTests */,
+				1846A51A1BE7632A007E2D7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1846A51A1BE7632A007E2D7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1846A5191BE7632A007E2D7C /* KIBluetooth.app */,
+				1846A5321BE7632A007E2D7C /* KIBluetoothTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1846A51B1BE7632A007E2D7C /* KIBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				1846A5421BE7633D007E2D7C /* KIBluetooth */,
+				1846A5201BE7632A007E2D7C /* AppDelegate.h */,
+				1846A5211BE7632A007E2D7C /* AppDelegate.m */,
+				1846A5231BE7632A007E2D7C /* ViewController.h */,
+				1846A5241BE7632A007E2D7C /* ViewController.m */,
+				1846A5261BE7632A007E2D7C /* Main.storyboard */,
+				1846A5291BE7632A007E2D7C /* Images.xcassets */,
+				1846A52B1BE7632A007E2D7C /* LaunchScreen.xib */,
+				1846A51C1BE7632A007E2D7C /* Supporting Files */,
+			);
+			path = KIBluetooth;
+			sourceTree = "<group>";
+		};
+		1846A51C1BE7632A007E2D7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1846A51D1BE7632A007E2D7C /* Info.plist */,
+				1846A51E1BE7632A007E2D7C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1846A5351BE7632A007E2D7C /* KIBluetoothTests */ = {
+			isa = PBXGroup;
+			children = (
+				1846A5381BE7632A007E2D7C /* KIBluetoothTests.m */,
+				1846A5361BE7632A007E2D7C /* Supporting Files */,
+			);
+			path = KIBluetoothTests;
+			sourceTree = "<group>";
+		};
+		1846A5361BE7632A007E2D7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1846A5371BE7632A007E2D7C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1846A5421BE7633D007E2D7C /* KIBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				1846A5431BE7633D007E2D7C /* CBUUID+KIAdditions.h */,
+				1846A5441BE7633D007E2D7C /* CBUUID+KIAdditions.m */,
+				1846A5451BE7633D007E2D7C /* KIBlueCentralManager.h */,
+				1846A5461BE7633D007E2D7C /* KIBlueCentralManager.m */,
+				1846A5471BE7633D007E2D7C /* KIBluePeripheralManager.h */,
+				1846A5481BE7633D007E2D7C /* KIBluePeripheralManager.m */,
+				1846A5491BE7633D007E2D7C /* KIPeripheral.h */,
+				1846A54A1BE7633D007E2D7C /* KIPeripheral.m */,
+			);
+			path = KIBluetooth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1846A5181BE7632A007E2D7C /* KIBluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1846A53C1BE7632B007E2D7C /* Build configuration list for PBXNativeTarget "KIBluetooth" */;
+			buildPhases = (
+				1846A5151BE7632A007E2D7C /* Sources */,
+				1846A5161BE7632A007E2D7C /* Frameworks */,
+				1846A5171BE7632A007E2D7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIBluetooth;
+			productName = KIBluetooth;
+			productReference = 1846A5191BE7632A007E2D7C /* KIBluetooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1846A5311BE7632A007E2D7C /* KIBluetoothTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1846A53F1BE7632B007E2D7C /* Build configuration list for PBXNativeTarget "KIBluetoothTests" */;
+			buildPhases = (
+				1846A52E1BE7632A007E2D7C /* Sources */,
+				1846A52F1BE7632A007E2D7C /* Frameworks */,
+				1846A5301BE7632A007E2D7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1846A5341BE7632A007E2D7C /* PBXTargetDependency */,
+			);
+			name = KIBluetoothTests;
+			productName = KIBluetoothTests;
+			productReference = 1846A5321BE7632A007E2D7C /* KIBluetoothTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1846A5111BE7632A007E2D7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = smartwalle;
+				TargetAttributes = {
+					1846A5181BE7632A007E2D7C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					1846A5311BE7632A007E2D7C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 1846A5181BE7632A007E2D7C;
+					};
+				};
+			};
+			buildConfigurationList = 1846A5141BE7632A007E2D7C /* Build configuration list for PBXProject "KIBluetooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1846A5101BE7632A007E2D7C;
+			productRefGroup = 1846A51A1BE7632A007E2D7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1846A5181BE7632A007E2D7C /* KIBluetooth */,
+				1846A5311BE7632A007E2D7C /* KIBluetoothTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1846A5171BE7632A007E2D7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1846A5281BE7632A007E2D7C /* Main.storyboard in Resources */,
+				1846A52D1BE7632A007E2D7C /* LaunchScreen.xib in Resources */,
+				1846A52A1BE7632A007E2D7C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1846A5301BE7632A007E2D7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1846A5151BE7632A007E2D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1846A5251BE7632A007E2D7C /* ViewController.m in Sources */,
+				1846A54D1BE7633D007E2D7C /* KIBluePeripheralManager.m in Sources */,
+				1846A54B1BE7633D007E2D7C /* CBUUID+KIAdditions.m in Sources */,
+				1846A54C1BE7633D007E2D7C /* KIBlueCentralManager.m in Sources */,
+				1846A54E1BE7633D007E2D7C /* KIPeripheral.m in Sources */,
+				1846A5221BE7632A007E2D7C /* AppDelegate.m in Sources */,
+				1846A51F1BE7632A007E2D7C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1846A52E1BE7632A007E2D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1846A5391BE7632A007E2D7C /* KIBluetoothTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1846A5341BE7632A007E2D7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1846A5181BE7632A007E2D7C /* KIBluetooth */;
+			targetProxy = 1846A5331BE7632A007E2D7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1846A5261BE7632A007E2D7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1846A5271BE7632A007E2D7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1846A52B1BE7632A007E2D7C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1846A52C1BE7632A007E2D7C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1846A53A1BE7632B007E2D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1846A53B1BE7632B007E2D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1846A53D1BE7632B007E2D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KIBluetooth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1846A53E1BE7632B007E2D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KIBluetooth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1846A5401BE7632B007E2D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KIBluetoothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIBluetooth.app/KIBluetooth";
+			};
+			name = Debug;
+		};
+		1846A5411BE7632B007E2D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KIBluetoothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIBluetooth.app/KIBluetooth";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1846A5141BE7632A007E2D7C /* Build configuration list for PBXProject "KIBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1846A53A1BE7632B007E2D7C /* Debug */,
+				1846A53B1BE7632B007E2D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1846A53C1BE7632B007E2D7C /* Build configuration list for PBXNativeTarget "KIBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1846A53D1BE7632B007E2D7C /* Debug */,
+				1846A53E1BE7632B007E2D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1846A53F1BE7632B007E2D7C /* Build configuration list for PBXNativeTarget "KIBluetoothTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1846A5401BE7632B007E2D7C /* Debug */,
+				1846A5411BE7632B007E2D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1846A5111BE7632A007E2D7C /* Project object */;
+}
