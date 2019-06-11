@@ -40,7 +40,7 @@ typedef BOOL(^CMPeripheralFilterBlock)          (KIBlueCentralManager *centralMa
 
 - (void)startScanAllowDuplicatesKey:(BOOL)allowDuplicatesKey block:(CMDidStartScanBlock)block;
 
-- (void)startScanWithOptions:(NSDictionary *)options block:(CMDidStartScanBlock)block;
+- (void)startScanWithServices:(NSArray<CBUUID *> *)serviceUUIDs options:(NSDictionary *)options block:(CMDidStartScanBlock)block;
 
 - (void)stopScan:(CMDidStopScanBlock)block;
 

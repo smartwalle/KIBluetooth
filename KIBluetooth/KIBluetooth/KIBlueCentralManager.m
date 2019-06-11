@@ -90,17 +90,17 @@ static KIBlueCentralManager *BLUE_CNETRAL_MANAGER  = nil;
 }
 
 - (void)startScanAllowDuplicatesKey:(BOOL)allowDuplicatesKey block:(CMDidStartScanBlock)block {
-    [self startScanWithOptions:@{CBCentralManagerScanOptionAllowDuplicatesKey:@(allowDuplicatesKey)} block:block];
+    [self startScanWithServices:nil options:@{CBCentralManagerScanOptionAllowDuplicatesKey:@(allowDuplicatesKey)} block:block];
 }
 
-- (void)startScanWithOptions:(NSDictionary *)options block:(CMDidStartScanBlock)block {
+- (void)startScanWithServices:(NSArray<CBUUID *> *)serviceUUIDs options:(NSDictionary *)options block:(CMDidStartScanBlock)block {
     
     [self.connectQueueList removeAllObjects];
     [self setIsConnecting:NO];
     
     [self.centralManager stopScan];
     
-    [self.centralManager scanForPeripheralsWithServices:nil options:options];
+    [self.centralManager scanForPeripheralsWithServices:serviceUUIDs options:options];
     
     if (block != nil) {
         __weak KIBlueCentralManager *weakSelf = self;
